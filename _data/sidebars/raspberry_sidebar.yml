@@ -29,17 +29,27 @@ entries:
   
   - title: Setup
     output: web, pdf
-    folderitems:    
+    folderitems:  
+    
     - title: General Setup
       url: /rpi_general_setup.html
       output: web, pdf
       
-    - title: Use Powerpoint
-      url: /rpi_pp_setup.html
-      output: web, pdf
-    
-    - title: Use Video
-      url: /rpi_video_setup.html
-      output: web, pdf
+      subfolders:
+      - title: Use Powerpoint
+        output: web
+        subfolderitems:
+        
+        - title: Use Powerpoint
+          url: /rpi_pp_setup.html
+          output: web, pdf
+      
+      - title: Use Video
+        output: web
+        subfolderitems:
+        
+        - title: Use Video
+          url: /rpi_video_setup.html
+          output: web, pdf
 
 
