@@ -1,0 +1,70 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Buziness Theme Documentation
+  product: Buziness
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /buzi_getting_started.html
+      output: web
+  
+  - title: Installation
+    output: web, pdf
+    folderitems:    
+    
+    - title: Through Dashboard
+      url: /buzi_install_dashboard.html
+      output: web
+      
+    - title: Manually
+      url: /buzi_install_manual.html
+      output: web
+
+  - title: Settings
+    output: web, pdf
+    folderitems:
+
+    - title: General Settings
+      url: /buzi_general_settings.html
+      output: web, pdf
+
+    - title: Services Settings
+      url: /buzi_services_settings.html
+      output: web, pdf
+      
+    - title: CTA Settings
+      url: /buzi_cta_settings.html
+      output: web, pdf
+
+    - title: Testimonials Settings
+      url: /buzi_testimonials_settings.html
+      output: web, pdf
+
+    - title: Counter Settings
+      url: /buzi_counter_settings.html
+      output: web, pdf
+      
+    - title: Theme Options
+      url: /buzi_theme_options.html
+      output: web, pdf
+
+
